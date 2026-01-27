@@ -29,7 +29,7 @@ export default function Home() {
             Hire Me
           </a>
           <a
-          href="/Mahesh_Resume.pdf"
+          href="/Maheshray-full-stack-resume.pdf"
           download
             className="px-5.5 py-3 text-lg rounded-lg ml-7
            lg:relative lg:top-15 lg:text-2xl border border-[#ff715b]
