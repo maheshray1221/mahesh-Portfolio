@@ -1,21 +1,7 @@
-import React, { useContext, useEffect, useState } from "react";
-import { PortfolioContext } from "../context/portfolio_context.jsx";
 import  {useNavigate} from "react-router-dom"
 
 export default function Home() {
   const navigate = useNavigate("")
-  // const [data, setData] = useState("");
-  // const { getAbout } = useContext(PortfolioContext);
-
-  // useEffect(() => {
-  //   const handleGetAbout = async () => {
-  //     let result = await getAbout();
-  //     setData(result.data);
-
-  //     console.log("result =>", result.data);
-  //   };
-  //   handleGetAbout();
-  // }, []);
   
   return (
     <div className=" w-full flex flex-col items-center min-h-screen lg:justify-items-normal lg:flex lg:flex-row ">
