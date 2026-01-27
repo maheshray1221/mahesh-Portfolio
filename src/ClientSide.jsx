@@ -1,4 +1,3 @@
-import { PortfolioProvider } from "./context/portfolio_context.jsx";
 import About from "./User-Pages/About.jsx";
 import Skill from "./User-Pages/Skill.jsx";
 import Project from "./User-Pages/Project.jsx";
