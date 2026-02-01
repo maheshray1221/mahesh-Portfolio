@@ -4,7 +4,7 @@ export default function Home() {
   const navigate = useNavigate("")
   
   return (
-    <div className=" w-full flex flex-col items-center min-h-screen lg:justify-items-normal lg:flex lg:flex-row ">
+    <div className=" w-full flex flex-col items-center min-h-screen lg:justify-between lg:flex lg:flex-row ">
       <div className="w-full pt-6  order-2 lg:pt-15 lg:order-1 lg:w-1/2 ">
         <h1 className="text-3xl font-semibold px-10 leading-10 lg:text-6xl text-[#fcffff] lg:mt-0 lg:font-semibold lg:ml-15 lg:leading-25">
           Hello <span className="text-[#ff715b]">&bull;</span>
@@ -41,11 +41,11 @@ export default function Home() {
         </div>
       </div>
       <div
-        className="flex items-center overflow-hidden justify-center w-65 h-65 rounded-full border-4 mt-28 border-orange-500 lg:rounded-none  lg:border-none order-1 
-      lg:ml-0 lg:order-2 pt-5 lg:pt-0 lg:w-[50%] lg:h-screen lg:mt-20 lg:flex lg:items-center lg:justify-center lg:relative"
+        className="flex items-center overflow-hidden justify-center w-65 h-65 rounded-full border-4 mt-28 mr-0 border-orange-500  lg:border-none order-1 
+      lg:ml-0 lg:mr-30 lg:order-2 pt-5 lg:pt-10  lg:w-100 lg:h-100 lg:rounded-sm lg:mt-20 lg:flex lg:items-center lg:justify-center lg:relative"
       >
         <img
-          className="w-full h-full rounded-full object-cover lg:rounded-none lg:object-none  "
+          className="w-full h-full rounded-full object-cover  lg:rounded-2xl "
           src="/mahesh.jpg"
           alt="hero"
         />
