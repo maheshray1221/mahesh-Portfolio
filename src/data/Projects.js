@@ -9,12 +9,12 @@ export const Projects = [
         github: "https://github.com/maheshray1221/Task-Manager"
     },
     {
-        id: 1,
+        id: 2,
         title: "Wonderlust",
-        description: "MERN stack task management application",
-        tech: ["React", "Node", "MongoDB"],
-        image: "/images/task.png",
-        live: "https://task-manager-frontend-th9q.onrender.com",
-        github: "https://github.com/maheshray1221/Task-Manager"
+        description: "Wonderlust is a full-stack web application that allows users to explore, add, edit, and delete travel destinations or stays. It is built using Node.js, Express.js, and MongoDB, Bootstrap, EJS follows the MVC architecture and responsive user interface.",
+        tech: ["Node.js", "MongoDB", "Mongoose", "EJS", "Bootstrap"],
+        video: "/wanderlust.mp4",
+        live: "https://wonderlust-ckka.onrender.com",
+        github: "https://github.com/maheshray1221/Wonderlust"
     },
 ]
