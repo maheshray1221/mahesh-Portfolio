@@ -1,6 +1,15 @@
 export const Projects = [
     {
         id: 1,
+        title: "TalkHub",
+        description: "One-to-One Chat App A full-stack real-time private messaging and video calling app built with MERN stack, featuring instant message delivery and a responsive UI using WebSocket communication.",
+        tech: ["React.js", "javaScript", "Node.js", "MongoDB", "mongoose", "Tailwind CSS"],
+        video: "/TalkHub.mp4",
+        live: "https://one-to-one-chat-app-frontend.onrender.com",
+        github: "https://github.com/maheshray1221/One-to-One-Chat-App"
+    },
+    {
+        id: 2,
         title: "ProTask",
         description: "A full-stack task management application built with the MERN stack, featuring CRUD operations, RESTful APIs, and a scalable MongoDB backend. Designed with secure server-side logic and MVC architecture to ensure performance and maintainability.",
         tech: ["React.js", "javaScript", "Node.js", "MongoDB", "mongoose", "Tailwind CSS",],
@@ -9,7 +18,7 @@ export const Projects = [
         github: "https://github.com/maheshray1221/Task-Manager"
     },
     {
-        id: 2,
+        id: 3,
         title: "Wonderlust",
         description: "Wonderlust is a full-stack web application that allows users to explore, add, edit, and delete travel destinations or stays. It is built using Node.js, Express.js, and MongoDB, Bootstrap, EJS follows the MVC architecture and responsive user interface.",
         tech: ["Node.js", "MongoDB", "Mongoose", "EJS", "Bootstrap"],
@@ -17,4 +26,5 @@ export const Projects = [
         live: "https://wonderlust-ckka.onrender.com",
         github: "https://github.com/maheshray1221/Wonderlust"
     },
+    
 ]

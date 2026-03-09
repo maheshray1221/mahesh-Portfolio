@@ -48,7 +48,7 @@ export default function Home() {
       >
         <img
           className="w-full h-full rounded-full object-cover scale-106 mr-2 mb-6 lg:mr-10 lg:mb-18  lg:scale-[1.25] lg:rounded-none "
-          src="/mahesh.jpg"
+          src="/profile.png"
           alt="hero"
         />
       </div>
